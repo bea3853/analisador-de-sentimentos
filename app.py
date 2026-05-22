@@ -9,6 +9,7 @@ nltk.download('vader_lexicon')
 # Inicializa o analisador de sentimentos
 sia = SentimentIntensityAnalyzer()
 
+print('teste')
 # Configuração simples da página do Streamlit
 st.title("Analisador de Sentimentos - NLTK")
 st.write("Digite uma frase em português para analisar o sentimento.")
